@@ -1,0 +1,16 @@
+{
+  "_comment": "Upper bound of the Healthy, Medium-risk and High-risk bands for a single-node Jira Server deployment. Anything above the last number is Extra Large. Starting points only: tune them for your hardware and Jira version.",
+  "issues": [150000, 500000, 2000000],
+  "projects": [200, 800, 2500],
+  "users": [1000, 10000, 100000],
+  "groups": [500, 2000, 10000],
+  "custom_fields": [250, 500, 1500],
+  "workflows": [80, 150, 600],
+  "comments": [250000, 1000000, 4000000],
+  "permission_schemes": [25, 100, 400],
+  "issue_security_schemes": [10, 50, 100],
+  "screens": [50, 200, 800],
+  "screen_schemes": [50, 200, 800],
+  "issue_types": [25, 100, 400],
+  "statuses": [50, 200, 800]
+}
