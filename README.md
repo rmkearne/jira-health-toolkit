@@ -4,7 +4,10 @@ Scripts I used on Jira performance-tuning, cleanup, and migration engagements. I
 
 On a big instance, the slowdowns usually come from clutter, not hardware: hundreds of unused custom fields, abandoned workflows, and filters nobody owns anymore. This toolkit gives you a number for each of those, then shows exactly what to clean up first.
 
-**Case study:** [Fixing a Jira instance that every dashboard said was healthy](performance-tuning/README.md). This is a real 2018 performance engagement, with client details removed. At peak, the database connection pool went from exhausted (20 of 20 connections in use) to 4 of 50, while peak reads per second more than doubled.
+**Case studies** (real engagements, client details removed):
+
+- [Fixing a Jira instance that every dashboard said was healthy](performance-tuning/README.md) (2018). At peak, the database connection pool went from exhausted (20 of 20 connections in use) to 4 of 50, while peak reads per second more than doubled.
+- [What the averages hid](tail-latency/README.md) (2019). Over 38 days, the median response time barely moved while the 99th percentile hit 70 seconds. Control charts flagged a two-day incident that the median and 95th percentile missed completely.
 
 ## What's here
 
