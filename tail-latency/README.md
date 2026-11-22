@@ -1,6 +1,6 @@
 # Case study: what the averages hid
 
-In spring 2019 I ran a performance engagement for a large entertainment company on Jira Data Center, spread across several nodes. Before changing anything, I built a baseline so we'd know what normal looked like. The client's name, hostnames, and people are removed. The charts are the original Minitab output from the engagement. The only edit is a typo I fixed in the chart titles and legend.
+In spring 2019 I ran a performance engagement for one of the world's largest gaming companies, on Jira Data Center, spread across several nodes. Before changing anything, I built a baseline so we'd know what normal looked like. The client's name, hostnames, and people are removed. The charts are the original Minitab output from the engagement. The only edit is a typo I fixed in the chart titles and legend.
 
 **Bottom line:** on a typical day, the median response time barely moved. Meanwhile, the slowest 1% of requests had three days where they ran 3.5 to 4.3 times longer than usual. The worst of those was nearly 70 seconds. Two of those days didn't show up in the median or the 95th percentile at all.
 
